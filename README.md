@@ -30,7 +30,7 @@ discodelgiorno/          # radice della repo
 
 ## Avvio
 
-Nessun build step. Clona la repo:
+Clona la repo:
 
 ```bash
 git clone https://github.com/masinamattia20/discodelgiorno.git
@@ -83,7 +83,7 @@ copertine sono pre-scaricate).
 Le PR si aprono sulla repo:
 <https://github.com/masinamattia20/discodelgiorno>
 
-Ogni contributo è benvenuto, ma valgono alcune regole non negoziabili.
+Ogni contributo è benvenuto. Regole:
 
 - **Approvazione obbligatoria.** Qualsiasi modifica dev'essere approvata da
   [@masinamattia20](https://github.com/masinamattia20) prima del merge. Nessuna PR

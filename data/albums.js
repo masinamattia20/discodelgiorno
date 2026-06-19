@@ -1165,6 +1165,18 @@ window.ALBUMS = [
   "id": "johnny-thunders-heartbreakers-l-a-m-f-1977"
  },
  {
+  "artist": "Joy Division",
+  "album": "Unknown Pleasures",
+  "year": 1979,
+  "id": "joy-division-unknown-pleasures-1979"
+ },
+ {
+  "artist": "Joy Division",
+  "album": "Closer",
+  "year": 1980,
+  "id": "joy-division-closer-1980"
+ },
+ {
   "artist": "Killing Joke",
   "album": "Killing Joke",
   "year": 1980,
