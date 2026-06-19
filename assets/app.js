@@ -1,5 +1,5 @@
-/* Disco del Giorno — client-side list. No build step.
-   Data from data/albums.js (window.ALBUMS) and data/covers.js (window.COVERS). */
+/* Disco del Giorno - elenco lato client. Nessun build step.
+   Dati da data/albums.js (window.ALBUMS) e data/covers.js (window.COVERS). */
 (function () {
   "use strict";
 
@@ -15,7 +15,12 @@
   }
   function $(id) { return document.getElementById(id); }
 
-  /* ---- providers: brand mark + search URL ---- */
+  // Etichetta "Artista - Titolo" usata in piu' punti (link, aria-label, disco del giorno).
+  function albumLabel(a) {
+    return (a.artist ? a.artist + " - " : "") + a.album;
+  }
+
+  /* ---- servizi: logo del brand + URL di ricerca ---- */
   var ICON = {
     spotify: ["M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"],
     youtube: ["M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"],
@@ -58,7 +63,7 @@
 
   function fillProviderLinks(container, a) {
     var q = encodeURIComponent(((a.artist ? a.artist + " " : "") + a.album).trim());
-    var label = (a.artist ? a.artist + " — " : "") + a.album;
+    var label = albumLabel(a);
     container.replaceChildren();
     SERVICES.forEach(function (s) {
       var link = document.createElement("a");
@@ -98,9 +103,9 @@
     footerCount: $("footerCount"),
   };
 
-  els.footerCount.textContent = String(ALBUMS.length);
+  if (els.footerCount) els.footerCount.textContent = String(ALBUMS.length);
 
-  /* ---- cover element ---- */
+  /* ---- elemento copertina ---- */
   function initials(a) {
     var words = (a.album || "").split(/\s+/).filter(Boolean);
     return words.slice(0, 2).map(function (w) { return w[0]; }).join("").toUpperCase() || "?";
@@ -112,7 +117,7 @@
       node = document.createElement("img");
       node.className = "cover";
       node.src = src;
-      node.alt = "Copertina di " + a.album + (a.artist ? " — " + a.artist : "");
+      node.alt = "Copertina di " + a.album + (a.artist ? " - " + a.artist : "");
       node.loading = "lazy";
       node.decoding = "async";
       node.width = 500;
@@ -127,7 +132,7 @@
     return node;
   }
 
-  /* ---- modal (expanded view) ---- */
+  /* ---- modal (vista estesa) ---- */
   var overlay = $("overlay");
   var modalEls = {
     cover: $("mCover"),
@@ -164,7 +169,7 @@
     });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") closeModal();
-      // simple focus trap
+      // focus trap semplice: tiene il focus dentro la modal
       if (e.key === "Tab" && !overlay.hidden) {
         var f = modalEls.dialog.querySelectorAll("a[href], button");
         if (!f.length) return;
@@ -188,7 +193,7 @@
     });
   }
 
-  /* ---- album of the day ---- */
+  /* ---- disco del giorno ---- */
   (function () {
     if (!ALBUMS.length) return;
     var now = new Date();
@@ -197,11 +202,11 @@
     var daily = $("daily");
     daily.insertBefore(coverFor(a, "cover--daily"), daily.firstChild);
     $("dailyText").textContent =
-      (a.artist ? a.artist + " — " : "") + a.album + (a.year ? " (" + a.year + ")" : "");
+      albumLabel(a) + (a.year ? " (" + a.year + ")" : "");
     makeClickable(daily, a);
   })();
 
-  /* ---- decade options ---- */
+  /* ---- opzioni decennio ---- */
   Array.from(new Set(ALBUMS.map(function (a) { return a._decade; }).filter(Boolean)))
     .sort(function (x, y) { return x - y; })
     .forEach(function (d) {
@@ -240,7 +245,7 @@
 
     var year = document.createElement("span");
     year.className = "card__year";
-    year.textContent = a.year || "—";
+    year.textContent = a.year || "-";
 
     body.appendChild(artist);
     body.appendChild(album);
@@ -297,7 +302,7 @@
     els.prev.disabled = page <= 1;
     els.next.disabled = page >= pages;
     els.pagerInfo.textContent =
-      none ? "" : (start + 1) + "–" + Math.min(start + PAGE_SIZE, total) + " · pagina " + page + "/" + pages;
+      none ? "" : (start + 1) + "-" + Math.min(start + PAGE_SIZE, total) + " | pagina " + page + "/" + pages;
   }
 
   function resetPageAndRender() { page = 1; render(); }
@@ -320,7 +325,7 @@
     els.search.focus();
   });
 
-  /* ---- contribute pop-up (dismissible, remembered) ---- */
+  /* ---- pop-up "contribuisci" (chiudibile, scelta ricordata in localStorage) ---- */
   (function () {
     var box = $("contribute");
     if (!box) return;

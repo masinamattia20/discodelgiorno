@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Download album cover art from the iTunes Search API (free, no key).
+"""Scarica le copertine dalla iTunes Search API (gratis, senza chiave).
 
-Reads data/albums.json, queries iTunes for each album, saves the artwork to
-assets/covers/<id>.jpg and writes data/covers.json + data/covers.js mapping
-album id -> cover path. Idempotent: albums whose cover already exists are
-skipped, so re-running only fills the gaps.
+Legge data/albums.json, interroga iTunes per ogni album, salva la copertina in
+assets/covers/<id>.jpg e scrive data/covers.json + data/covers.js con la mappa
+id album -> percorso copertina. Idempotente: gli album la cui copertina esiste
+gia' vengono saltati, quindi rilanciarlo riempie solo i buchi.
 
-Run: python3 scripts/fetch_covers.py
+Avvio: python3 scripts/fetch_covers.py
 """
 import json
 import re
@@ -26,12 +26,12 @@ MAP_JS = ROOT / "data" / "covers.js"
 
 SEARCH = "https://itunes.apple.com/search?"
 UA = "disco-del-giorno/1.0 (open-source fan project)"
-ART_SIZE = "500x500bb.jpg"        # upscale the 100x100 thumbnail iTunes returns
-DELAY = 0.6                        # polite gap between requests
+ART_SIZE = "500x500bb.jpg" # ingrandisce la miniatura 100x100 di iTunes
+DELAY = 0.6 # pausa cortese tra una richiesta e l'altra
 
 
 def get_json(url):
-    """GET with retry/backoff on throttling (429) and transient errors."""
+    """GET con retry/backoff su throttling (429) ed errori transitori."""
     for attempt in range(4):
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:
@@ -39,7 +39,7 @@ def get_json(url):
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             if e.code in (403, 429, 500, 502, 503) and attempt < 3:
-                time.sleep(2 ** attempt)  # 1, 2, 4s
+                time.sleep(2 ** attempt) # 1, 2, 4s
                 continue
             raise
         except Exception:
@@ -55,7 +55,7 @@ def fold(s):
 
 
 def clean(s):
-    """Drop parentheticals and punctuation that throw iTunes search off."""
+    """Toglie le parentesi e la punteggiatura che confondono la ricerca iTunes."""
     s = re.sub(r"\([^)]*\)", " ", s or "")
     s = re.sub(r"[^\w\s&]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
@@ -74,9 +74,9 @@ def search(term, entity):
 
 
 def pick(results, artist, album):
-    """Require the ARTIST to match; prefer results whose album title also
-    matches. Never fall back to an unrelated result (that gave wrong covers
-    for generic titles like 'Lungs')."""
+    """Richiede che l'ARTISTA combaci; preferisce i risultati in cui combacia
+    anche il titolo dell'album. Mai ripiegare su un risultato non correlato
+    (dava copertine sbagliate per titoli generici tipo 'Lungs')."""
     wa = fold(clean(artist))
     wl = fold(clean(album))
     artist_only = None
@@ -88,22 +88,22 @@ def pick(results, artist, album):
             continue
         album_match = bool(wl) and (wl in name or name in wl)
         if album_match:
-            return r                      # artist + album: strong match
+            return r # artista + album: match forte
         if artist_only is None:
-            artist_only = r               # artist right, title variant
+            artist_only = r # artista giusto, titolo variante
     return artist_only
 
 
 def find_artwork(artist, album):
-    """Return a high-res artwork URL for the album, or None."""
+    """Restituisce l'URL della copertina ad alta risoluzione, o None."""
     terms = []
     for t in (artist + " " + album, clean(artist) + " " + clean(album),
               clean(album) + " " + clean(artist)):
         t = t.strip()
         if t and t not in terms:
             terms.append(t)
-    # albums first; if the album store has nothing, songs carry the same
-    # collection artwork (e.g. Pavement — Slanted & Enchanted).
+    # prima gli album; se lo store album non ha nulla, i brani portano la stessa
+    # copertina della raccolta (es. Pavement - Slanted & Enchanted).
     for entity in ("album", "song"):
         for term in terms:
             r = pick(search(term, entity), artist, album)
@@ -139,22 +139,22 @@ def main():
         time.sleep(DELAY)
         if not art:
             misses += 1
-            print(f"[{i}/{len(albums)}] MISS  {a['artist']} — {a['album']}")
+            print(f"[{i}/{len(albums)}] MISS  {a['artist']} - {a['album']}")
             continue
         try:
             size = download(art, dest)
             covers[a["id"]] = rel
             hits += 1
-            print(f"[{i}/{len(albums)}] ok    {a['artist']} — {a['album']} ({size // 1024}KB)")
+            print(f"[{i}/{len(albums)}] ok    {a['artist']} - {a['album']} ({size // 1024}KB)")
         except Exception as e:
             misses += 1
-            print(f"[{i}/{len(albums)}] FAIL  {a['artist']} — {a['album']}: {e}")
+            print(f"[{i}/{len(albums)}] FAIL  {a['artist']} - {a['album']}: {e}")
         time.sleep(DELAY)
 
     payload = json.dumps(covers, ensure_ascii=False, indent=1)
     MAP_JSON.write_text(payload, encoding="utf-8")
     MAP_JS.write_text(
-        "// Generated by scripts/fetch_covers.py — do not edit by hand.\n"
+        "// Generato da scripts/fetch_covers.py - non modificare a mano.\n"
         f"window.COVERS = {payload};\n",
         encoding="utf-8",
     )

@@ -1,10 +1,8 @@
 # Disco del Giorno
 
 Archivio open source, fan-made, dei dischi consigliati da **Federico Frusciante**.
-Sito statico: cerca, ordina (artista/titolo/anno) e sfoglia ~489 dischi per
-decennio, 25 alla volta, con copertine, un "disco del giorno" che cambia ogni
-giorno, e una vista estesa (clic su un disco) con link a Spotify, YouTube,
-Amazon, Discogs e RateYourMusic.
+Sito statico: cerca, ordina (artista/titolo/anno) e sfoglia ~500 dischi, 25 alla volta, con copertine, un "disco del giorno" che cambia ogni
+giorno, e una vista estesa (clic su un disco) con link a Spotify, YouTube, Amazon, Discogs e RateYourMusic.
 
 Repo: <https://github.com/masinamattia20/discodelgiorno>
 
@@ -16,7 +14,7 @@ Repo: <https://github.com/masinamattia20/discodelgiorno>
 website/
 ├── index.html          # markup
 ├── assets/
-│   ├── styles.css      # stile minimale (font di sistema, zero dipendenze)
+│   ├── styles.css      # font di sistema, zero dipendenze
 │   ├── app.js          # ricerca, filtri, modal, disco del giorno (vanilla JS)
 │   └── covers/         # copertine .jpg scaricate (una per disco trovato)
 ├── data/
@@ -32,7 +30,7 @@ website/
 
 ## Avvio
 
-Nessun build step. Clona il repo:
+Nessun build step. Clona la repo:
 
 ```bash
 git clone https://github.com/masinamattia20/discodelgiorno.git
@@ -60,7 +58,7 @@ python3 -m http.server 8000
    ```
 
 Il parser deduce automaticamente quale lato è il titolo (quello con l'anno) e
-quale l'artista, gestendo i casi irregolari tramite la tabella `OVERRIDES`.
+quale l'artista, gestendo gli errori tramite la tabella `OVERRIDES`.
 
 ## Copertine
 
@@ -79,12 +77,11 @@ illustrativo per un progetto non commerciale.
 
 HTML + CSS + JavaScript vanilla, font di sistema. Nessun framework, nessun font
 esterno, nessun tracker, nessuna build, nessuna chiamata API a runtime (le
-copertine sono pre-scaricate). Si pubblica così com'è su GitHub Pages, Netlify o
-qualsiasi host statico.
+copertine sono pre-scaricate).
 
 ## Contribuire (Pull Request)
 
-Le PR si aprono sul repo:
+Le PR si aprono sulla repo:
 <https://github.com/masinamattia20/discodelgiorno>
 
 Ogni contributo è benvenuto, ma valgono alcune regole non negoziabili.
@@ -93,11 +90,11 @@ Ogni contributo è benvenuto, ma valgono alcune regole non negoziabili.
   [@masinamattia20](https://github.com/masinamattia20) prima del merge. Nessuna PR
   viene unita senza la sua revisione esplicita, anche se i controlli automatici
   sono verdi.
-- **Aggiunta di un disco = prova richiesta.** Per aggiungere un disco devi
+- **L'aggiunta di un disco richiede una prova.** Per aggiungere un disco devi
   fornire la **prova** che Frusciante l'abbia effettivamente consigliato: un
-  **link** alla fonte (video, recensione, post o intervista). Le PR che
-  aggiungono dischi senza link verificabile vengono chiuse.
-- **Una PR, uno scopo.** Tieni le modifiche piccole e focalizzate. Niente PR che
+  **link** (video, recensione, post o intervista) possibilmente con minutaggio se si tratta di un video lungo. Le PR che
+  aggiungono dischi senza link verificabile vengono chiuse automaticamente.
+- **Piccole modifiche.** Tieni le modifiche piccole e focalizzate. Non si accettano PR che
   mischiano aggiunte di dischi, modifiche al codice e refactor nello stesso
   diff.
 - **Rigenera i dati, non modificarli a mano.** Modifica solo

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Disco del Giorno — i dischi di Federico Frusciante</title>
+  <title>Disco del Giorno - i dischi di Federico Frusciante</title>
   <meta name="description" content="Elenco open source dei dischi consigliati da Federico Frusciante. Cerca e filtra per artista, titolo e decennio." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231a1719'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23e2384f'/%3E%3Ccircle cx='16' cy='16' r='1.5' fill='%231a1719'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/styles.css" />
@@ -18,7 +18,7 @@
   <main class="wrap">
     <p id="daily" class="daily">
       <span class="daily__label">Disco del giorno</span>
-      <span id="dailyText">…</span>
+      <span id="dailyText">...</span>
     </p>
 
     <div class="controls">
@@ -29,19 +29,19 @@
       <div class="controls__field">
         <label for="decade">Decennio</label>
         <select id="decade">
-          <option value="">tutti</option>
+          <option value="">Tutti</option>
         </select>
       </div>
       <div class="controls__field">
         <label for="sort">Ordina</label>
         <select id="sort">
-          <option value="artist">artista A–Z</option>
-          <option value="album">titolo A–Z</option>
-          <option value="year-desc">anno ↓ (recenti)</option>
-          <option value="year-asc">anno ↑ (vecchi)</option>
+          <option value="artist">Artista A-Z</option>
+          <option value="album">Titolo A-Z</option>
+          <option value="year-desc">Anno Decrescente</option>
+          <option value="year-asc">Anno Crescente</option>
         </select>
       </div>
-      <button type="button" id="reset">azzera</button>
+      <button type="button" id="reset">Azzera</button>
       <p id="count" class="count"></p>
     </div>
 
@@ -49,17 +49,16 @@
     <p id="empty" class="empty" hidden>Nessun disco trovato.</p>
 
     <nav class="pager" id="pager" aria-label="Paginazione" hidden>
-      <button type="button" id="prev">‹ Prec</button>
+      <button type="button" id="prev">&lsaquo; Prec</button>
       <span class="pager__info" id="pagerInfo" aria-live="polite"></span>
-      <button type="button" id="next">Succ ›</button>
+      <button type="button" id="next">Succ &rsaquo;</button>
     </nav>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
       <p>
-        <span id="footerCount">—</span> dischi. Progetto open source: il codice è
-        libero e modificabile sotto licenza MIT.
+        Progetto open source: il codice è libero e modificabile sotto licenza MIT.
       </p>
     </div>
   </footer>
@@ -68,7 +67,7 @@
     <button type="button" class="contribute__close" id="contribClose" aria-label="Chiudi">&times;</button>
     <p class="contribute__title">Vuoi contribuire?</p>
     <p class="contribute__text">Progetto open source. Aggiungi un disco, correggi una copertina, apri una PR.</p>
-    <a class="contribute__cta" id="contribLink" href="https://github.com/USERNAME/disco-del-giorno" target="_blank" rel="noopener">Vai al repo GitHub ↗</a>
+    <a class="contribute__cta" id="contribLink" href="https://github.com/masinamattia20/discodelgiorno" target="_blank" rel="noopener">Vai al repo GitHub &nearr;</a>
   </aside>
 
   <div id="overlay" class="overlay" hidden>
