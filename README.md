@@ -11,7 +11,7 @@ Repo: <https://github.com/masinamattia20/discodelgiorno>
 ## Struttura
 
 ```
-website/
+discodelgiorno/          # radice della repo
 ├── index.html          # markup
 ├── assets/
 │   ├── styles.css      # font di sistema, zero dipendenze
@@ -34,13 +34,12 @@ Nessun build step. Clona la repo:
 
 ```bash
 git clone https://github.com/masinamattia20/discodelgiorno.git
-cd discodelgiorno/website
+cd discodelgiorno
 ```
 
 Apri `index.html` nel browser, oppure servi la cartella:
 
 ```bash
-cd website
 python3 -m http.server 8000
 # poi apri http://localhost:8000
 ```
