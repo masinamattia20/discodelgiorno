@@ -208,6 +208,39 @@ mark { background: var(--accent); color: #fff; padding: 0 0.1em; }
   box-shadow: 0 8px 28px rgba(26, 23, 25, 0.18);
 }
 .contribute[hidden] { display: none; }
+
+/* stato ridotto a icona: bolla rotonda cliccabile per riaprire */
+.contribute--min {
+  width: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  box-shadow: none;
+}
+.contribute--min .contribute__close,
+.contribute--min .contribute__title,
+.contribute--min .contribute__text,
+.contribute--min .contribute__cta { display: none; }
+.contribute__launcher { display: none; }
+.contribute--min .contribute__launcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent-strong);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 28px rgba(26, 23, 25, 0.18);
+}
+.contribute--min .contribute__launcher:hover { background: var(--accent); }
+
 .contribute__close {
   position: absolute;
   top: 0.25rem;

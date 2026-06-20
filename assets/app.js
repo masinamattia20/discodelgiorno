@@ -325,18 +325,21 @@
     els.search.focus();
   });
 
-  /* ---- pop-up "contribuisci" (chiudibile, scelta ricordata in localStorage) ---- */
+  /* ---- pop-up "contribuisci" (riducibile a icona, stato in localStorage) ---- */
   (function () {
     var box = $("contribute");
     if (!box) return;
-    var KEY = "ddg-contribute-dismissed";
-    var dismissed = false;
-    try { dismissed = localStorage.getItem(KEY) === "1"; } catch (e) {}
-    if (!dismissed) box.hidden = false;
-    $("contribClose").addEventListener("click", function () {
-      box.hidden = true;
-      try { localStorage.setItem(KEY, "1"); } catch (e) {}
-    });
+    var KEY = "ddg-contribute-min";
+    var minimized = false;
+    try { minimized = localStorage.getItem(KEY) === "1"; } catch (e) {}
+    function setMin(on) {
+      box.classList.toggle("contribute--min", on);
+      try { localStorage.setItem(KEY, on ? "1" : "0"); } catch (e) {}
+    }
+    box.hidden = false; // sempre visibile: pieno o ridotto a icona
+    if (minimized) box.classList.add("contribute--min");
+    $("contribClose").addEventListener("click", function () { setMin(true); });
+    $("contribOpen").addEventListener("click", function () { setMin(false); });
   })();
 
   render();
