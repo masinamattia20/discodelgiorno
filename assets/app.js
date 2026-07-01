@@ -316,6 +316,9 @@
   els.next.addEventListener("click", function () {
     page++; render(); window.scrollTo({ top: 0 });
   });
+  $("random").addEventListener("click", function () {
+    openModal(ALBUMS[Math.floor(Math.random() * ALBUMS.length)]);
+  });
   els.reset.addEventListener("click", function () {
     els.search.value = "";
     els.decade.value = "";
