@@ -1,6 +1,12 @@
 // Generato da scripts/parse.py - non modificare a mano.
 window.ALBUMS = [
  {
+  "artist": "!!!",
+  "album": "Louden Up Now",
+  "year": 2004,
+  "id": "louden-up-now-2004"
+ },
+ {
   "artist": "16 Horsepower",
   "album": "Sackcloth & Ashes",
   "year": 1996,
@@ -37,6 +43,12 @@ window.ALBUMS = [
   "id": "adam-and-the-ants-dirk-wears-white-sox-1979"
  },
  {
+  "artist": "Alice in Chains",
+  "album": "Dirt",
+  "year": 1992,
+  "id": "alice-in-chains-dirt-1992"
+ },
+ {
   "artist": "Altered Images",
   "album": "Pinky Blue",
   "year": 1982,
@@ -49,16 +61,34 @@ window.ALBUMS = [
   "id": "andrea-parker-kiss-my-arp-1999"
  },
  {
+  "artist": "Animal Collective",
+  "album": "Danse Manatee",
+  "year": 2001,
+  "id": "animal-collective-danse-manatee-2001"
+ },
+ {
   "artist": "Arcade Fire",
   "album": "Funeral",
   "year": 2004,
   "id": "arcade-fire-funeral-2004"
  },
  {
+  "artist": "Arcade Fire",
+  "album": "The Suburbs",
+  "year": 2010,
+  "id": "arcade-fire-the-suburbs-2010"
+ },
+ {
   "artist": "Archers Of Loaf",
   "album": "Icky Mettle",
   "year": 1993,
   "id": "archers-of-loaf-icky-mettle-1993"
+ },
+ {
+  "artist": "Arctic Monkeys",
+  "album": "Favourite Worst Nightmare",
+  "year": 2007,
+  "id": "arctic-monkeys-favourite-worst-nightmare-2007"
  },
  {
   "artist": "Art of Noise",
@@ -85,6 +115,18 @@ window.ALBUMS = [
   "id": "bauhaus-in-the-flat-field-1980"
  },
  {
+  "artist": "Bauhaus",
+  "album": "Mask",
+  "year": 1981,
+  "id": "bauhaus-mask-1981"
+ },
+ {
+  "artist": "Beastie Boys",
+  "album": "Hello Nasty",
+  "year": 1998,
+  "id": "beastie-boys-hello-nasty-1998"
+ },
+ {
   "artist": "Belle & Sebastian",
   "album": "If You're Feeling Sinister",
   "year": 1996,
@@ -103,10 +145,28 @@ window.ALBUMS = [
   "id": "big-black-lungs-1983"
  },
  {
+  "artist": "Big Black",
+  "album": "Atomizer",
+  "year": 1986,
+  "id": "big-black-atomizer-1986"
+ },
+ {
+  "artist": "Billy Bragg",
+  "album": "Talking with the Taxman About Poetry",
+  "year": 1986,
+  "id": "billy-bragg-talking-with-the-taxman-about-poetry-1986"
+ },
+ {
   "artist": "Billy Idol",
   "album": "Rebel Yell",
   "year": 1983,
   "id": "billy-idol-rebel-yell-1983"
+ },
+ {
+  "artist": "Bjork",
+  "album": "Homogenic",
+  "year": 1997,
+  "id": "bjork-homogenic-1997"
  },
  {
   "artist": "Black Sabbath",
@@ -116,15 +176,51 @@ window.ALBUMS = [
  },
  {
   "artist": "Blondie",
+  "album": "Blondie",
+  "year": 1976,
+  "id": "blondie-blondie-1976"
+ },
+ {
+  "artist": "Blondie",
   "album": "Parallel Lines",
   "year": 1978,
   "id": "blondie-parallel-lines-1978"
+ },
+ {
+  "artist": "Blur",
+  "album": "Blur",
+  "year": 1997,
+  "id": "blur-blur-1997"
+ },
+ {
+  "artist": "Bright Eyes",
+  "album": "Letting Off the Happiness",
+  "year": 1998,
+  "id": "bright-eyes-letting-off-the-happiness-1998"
+ },
+ {
+  "artist": "Built to Spill",
+  "album": "Perfect from Now On",
+  "year": 1997,
+  "id": "built-to-spill-perfect-from-now-on-1997"
+ },
+ {
+  "artist": "Bush Tetras",
+  "album": "Beauty Lies",
+  "year": 1997,
+  "id": "bush-tetras-beauty-lies-1997"
  },
  {
   "artist": "Cabaret Voltaire",
   "album": "Mix-Up",
   "year": 1979,
   "id": "cabaret-voltaire-mix-up-1979"
+ },
+ {
+  "artist": "Catherine Wheel",
+  "album": "Ferment",
+  "year": 1992,
+  "id": "catherine-wheel-ferment-1992"
  },
  {
   "artist": "Charged G.B.H.",
@@ -149,6 +245,12 @@ window.ALBUMS = [
   "album": "Cluster II",
   "year": 1972,
   "id": "cluster-cluster-ii-1972"
+ },
+ {
+  "artist": "Cocteau Twins",
+  "album": "Garlands",
+  "year": 1982,
+  "id": "cocteau-twins-garlands-1982"
  },
  {
   "artist": "Covenant",
@@ -611,6 +713,18 @@ window.ALBUMS = [
   "album": "Roman Candle",
   "year": 1994,
   "id": "elliott-smith-roman-candle-1994"
+ },
+ {
+  "artist": "Elliott Smith",
+  "album": "From a Basement on the Hill",
+  "year": 2004,
+  "id": "elliott-smith-from-a-basement-on-the-hill-2004"
+ },
+ {
+  "artist": "Elvis Costello",
+  "album": "My Aim Is True",
+  "year": 1977,
+  "id": "elvis-costello-my-aim-is-true-1977"
  },
  {
   "artist": "Elvis Costello",
@@ -1261,6 +1375,18 @@ window.ALBUMS = [
   "id": "japan-gentlemen-take-polaroids-1980"
  },
  {
+  "artist": "Jeff Buckley",
+  "album": "Grace",
+  "year": 1994,
+  "id": "jeff-buckley-grace-1994"
+ },
+ {
+  "artist": "Joanna Newsom",
+  "album": "Ys",
+  "year": 2006,
+  "id": "joanna-newsom-ys-2006"
+ },
+ {
   "artist": "Joe Jackson",
   "album": "Look Sharp!",
   "year": 1979,
@@ -1271,6 +1397,12 @@ window.ALBUMS = [
   "album": "Metamatic",
   "year": 1980,
   "id": "john-foxx-metamatic-1980"
+ },
+ {
+  "artist": "Johnny Cash",
+  "album": "At Folsom Prison",
+  "year": 1968,
+  "id": "johnny-cash-at-folsom-prison-1968"
  },
  {
   "artist": "Johnny Thunders & Heartbreakers",
@@ -1291,10 +1423,22 @@ window.ALBUMS = [
   "id": "joy-division-closer-1980"
  },
  {
+  "artist": "Kate Bush",
+  "album": "The Kick Inside",
+  "year": 1978,
+  "id": "kate-bush-the-kick-inside-1978"
+ },
+ {
   "artist": "Killing Joke",
   "album": "Killing Joke",
   "year": 1980,
   "id": "killing-joke-killing-joke-1980"
+ },
+ {
+  "artist": "Killing Joke",
+  "album": "Night Time",
+  "year": 1985,
+  "id": "killing-joke-night-time-1985"
  },
  {
   "artist": "King Crimson",
@@ -1309,6 +1453,12 @@ window.ALBUMS = [
   "id": "klaus-nomi-klaus-nomi-1981"
  },
  {
+  "artist": "Kula Shaker",
+  "album": "K",
+  "year": 1996,
+  "id": "kula-shaker-k-1996"
+ },
+ {
   "artist": "Landscape",
   "album": "Landscape",
   "year": 1979,
@@ -1319,6 +1469,12 @@ window.ALBUMS = [
   "album": "Tycho Brahe",
   "year": 1993,
   "id": "lightwave-tycho-brahe-1993"
+ },
+ {
+  "artist": "Low",
+  "album": "I Could Live in Hope",
+  "year": 1994,
+  "id": "low-i-could-live-in-hope-1994"
  },
  {
   "artist": "Magazine",
@@ -1399,6 +1555,12 @@ window.ALBUMS = [
   "id": "morphine-good-1992"
  },
  {
+  "artist": "Morrissey",
+  "album": "Vauxhall and I",
+  "year": 1994,
+  "id": "morrissey-vauxhall-and-i-1994"
+ },
+ {
   "artist": "Mother Love Bone",
   "album": "Apple",
   "year": 1990,
@@ -1427,6 +1589,12 @@ window.ALBUMS = [
   "album": "Superfuzz Bigmuff",
   "year": 1988,
   "id": "mudhoney-superfuzz-bigmuff-1988"
+ },
+ {
+  "artist": "Mudhoney",
+  "album": "Mudhoney",
+  "year": 1989,
+  "id": "mudhoney-mudhoney-1989"
  },
  {
   "artist": "MX-80 Sound",
@@ -1505,6 +1673,12 @@ window.ALBUMS = [
   "album": "Vengenace",
   "year": 1984,
   "id": "new-model-army-vengenace-1984"
+ },
+ {
+  "artist": "New Order",
+  "album": "Movement",
+  "year": 1981,
+  "id": "new-order-movement-1981"
  },
  {
   "artist": "New Order",
@@ -1729,6 +1903,12 @@ window.ALBUMS = [
   "id": "patrick-wolf-wind-in-the-wires-2005"
  },
  {
+  "artist": "Patti Smith",
+  "album": "Horses",
+  "year": 1975,
+  "id": "patti-smith-horses-1975"
+ },
+ {
   "artist": "Patti Smith Group",
   "album": "Radio Ethiopia",
   "year": 1976,
@@ -1753,10 +1933,22 @@ window.ALBUMS = [
   "id": "pavement-slanted-and-enchanted-1992"
  },
  {
+  "artist": "Pavement",
+  "album": "Wowee Zowee",
+  "year": 1995,
+  "id": "pavement-wowee-zowee-1995"
+ },
+ {
   "artist": "Peaches",
   "album": "The Teaches Of Peaches",
   "year": 2001,
   "id": "peaches-the-teaches-of-peaches-2001"
+ },
+ {
+  "artist": "Pearl Jam",
+  "album": "Vs.",
+  "year": 1993,
+  "id": "pearl-jam-vs-1993"
  },
  {
   "artist": "Pearl Jam",
@@ -1841,6 +2033,12 @@ window.ALBUMS = [
   "album": "Doolittle",
   "year": 1989,
   "id": "pixies-doolittle-1989"
+ },
+ {
+  "artist": "Pixies",
+  "album": "Trompe le Monde",
+  "year": 1991,
+  "id": "pixies-trompe-le-monde-1991"
  },
  {
   "artist": "PJ Harvey",
@@ -2539,6 +2737,12 @@ window.ALBUMS = [
   "id": "stiff-little-fingers-inflammable-material-1979"
  },
  {
+  "artist": "Suede",
+  "album": "Coming Up",
+  "year": 1996,
+  "id": "suede-coming-up-1996"
+ },
+ {
   "artist": "Suicide",
   "album": "Suicide",
   "year": 1977,
@@ -2561,6 +2765,12 @@ window.ALBUMS = [
   "album": "The Colour of Spring",
   "year": 1986,
   "id": "talk-talk-the-colour-of-spring-1986"
+ },
+ {
+  "artist": "Talk Talk",
+  "album": "Spirit of Eden",
+  "year": 1988,
+  "id": "talk-talk-spirit-of-eden-1988"
  },
  {
   "artist": "Talking Heads",
@@ -3151,6 +3361,12 @@ window.ALBUMS = [
   "id": "the-sisters-of-mercy-first-and-last-and-always-1985"
  },
  {
+  "artist": "The Sisters of Mercy",
+  "album": "Floodland",
+  "year": 1987,
+  "id": "the-sisters-of-mercy-floodland-1987"
+ },
+ {
   "artist": "The Slickee Boys",
   "album": "Cybernetic Dreams Of Pi",
   "year": 1983,
@@ -3161,6 +3377,12 @@ window.ALBUMS = [
   "album": "Cut",
   "year": 1979,
   "id": "the-slits-cut-1979"
+ },
+ {
+  "artist": "The Smiths",
+  "album": "The Smiths",
+  "year": 1984,
+  "id": "the-smiths-the-smiths-1984"
  },
  {
   "artist": "The Smiths",
@@ -3182,6 +3404,12 @@ window.ALBUMS = [
  },
  {
   "artist": "The Stranglers",
+  "album": "Rattus Norvegicus",
+  "year": 1977,
+  "id": "the-stranglers-rattus-norvegicus-1977"
+ },
+ {
+  "artist": "The Stranglers",
   "album": "The Raven",
   "year": 1979,
   "id": "the-stranglers-the-raven-1979"
@@ -3194,6 +3422,12 @@ window.ALBUMS = [
  },
  {
   "artist": "The The",
+  "album": "Burning Blue Soul",
+  "year": 1981,
+  "id": "the-the-burning-blue-soul-1981"
+ },
+ {
+  "artist": "The The",
   "album": "Soul Mining",
   "year": 1983,
   "id": "the-the-soul-mining-1983"
@@ -3203,6 +3437,12 @@ window.ALBUMS = [
   "album": "White Blood Cells",
   "year": 2001,
   "id": "the-white-stripes-white-blood-cells-2001"
+ },
+ {
+  "artist": "Therapy?",
+  "album": "Troublegum",
+  "year": 1994,
+  "id": "therapy-troublegum-1994"
  },
  {
   "artist": "Thomas Dolby",
@@ -3235,6 +3475,18 @@ window.ALBUMS = [
   "id": "tuxedomoon-half-mute-1980"
  },
  {
+  "artist": "Tuxedomoon",
+  "album": "Desire",
+  "year": 1981,
+  "id": "tuxedomoon-desire-1981"
+ },
+ {
+  "artist": "U2",
+  "album": "Under a Blood Red Sky",
+  "year": 1983,
+  "id": "u2-under-a-blood-red-sky-1983"
+ },
+ {
   "artist": "U2",
   "album": "Achtung Baby",
   "year": 1991,
@@ -3251,6 +3503,12 @@ window.ALBUMS = [
   "album": "Violent Femmes",
   "year": 1983,
   "id": "violent-femmes-violent-femmes-1983"
+ },
+ {
+  "artist": "Violent Femmes",
+  "album": "Hallowed Ground",
+  "year": 1984,
+  "id": "violent-femmes-hallowed-ground-1984"
  },
  {
   "artist": "Virgin Prunes",
@@ -3272,6 +3530,12 @@ window.ALBUMS = [
  },
  {
   "artist": "Wall of Voodoo",
+  "album": "Dark Continent",
+  "year": 1981,
+  "id": "wall-of-voodoo-dark-continent-1981"
+ },
+ {
+  "artist": "Wall of Voodoo",
   "album": "Call of the West",
   "year": 1982,
   "id": "wall-of-voodoo-call-of-the-west-1982"
@@ -3290,15 +3554,33 @@ window.ALBUMS = [
  },
  {
   "artist": "Wire",
+  "album": "Chairs Missing",
+  "year": 1978,
+  "id": "wire-chairs-missing-1978"
+ },
+ {
+  "artist": "Wire",
   "album": "154",
   "year": 1979,
   "id": "wire-154-1979"
+ },
+ {
+  "artist": "Wolf Parade",
+  "album": "Apologies to the Queen Mary",
+  "year": 2005,
+  "id": "wolf-parade-apologies-to-the-queen-mary-2005"
  },
  {
   "artist": "X",
   "album": "Los Angeles",
   "year": 1980,
   "id": "x-los-angeles-1980"
+ },
+ {
+  "artist": "X",
+  "album": "Under the Big Black Sun",
+  "year": 1982,
+  "id": "x-under-the-big-black-sun-1982"
  },
  {
   "artist": "XTC",
