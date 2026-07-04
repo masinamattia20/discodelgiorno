@@ -13,6 +13,36 @@ window.ALBUMS = [
   "id": "7-year-bitch-viva-zapata-1994"
  },
  {
+  "artist": "A Certain Ratio",
+  "album": "To Each...",
+  "year": 1981,
+  "id": "a-certain-ratio-to-each-1981"
+ },
+ {
+  "artist": "A Flock of Seagulls",
+  "album": "A Flock of Seagulls",
+  "year": 1982,
+  "id": "a-flock-of-seagulls-a-flock-of-seagulls-1982"
+ },
+ {
+  "artist": "ABC",
+  "album": "The Lexicon of Love",
+  "year": 1982,
+  "id": "abc-the-lexicon-of-love-1982"
+ },
+ {
+  "artist": "Adam and the Ants",
+  "album": "Dirk Wears White Sox",
+  "year": 1979,
+  "id": "adam-and-the-ants-dirk-wears-white-sox-1979"
+ },
+ {
+  "artist": "Altered Images",
+  "album": "Pinky Blue",
+  "year": 1982,
+  "id": "altered-images-pinky-blue-1982"
+ },
+ {
   "artist": "Andrea Parker",
   "album": "Kiss My Arp",
   "year": 1999,
@@ -31,10 +61,28 @@ window.ALBUMS = [
   "id": "archers-of-loaf-icky-mettle-1993"
  },
  {
+  "artist": "Art of Noise",
+  "album": "Who's Afraid of the Art of Noise?",
+  "year": 1984,
+  "id": "art-of-noise-who-s-afraid-of-the-art-of-noise-1984"
+ },
+ {
+  "artist": "Associates",
+  "album": "The Affectionate Punch",
+  "year": 1980,
+  "id": "associates-the-affectionate-punch-1980"
+ },
+ {
   "artist": "Aztec Camera",
   "album": "High Land, Hard Rain",
   "year": 1983,
   "id": "aztec-camera-high-land-hard-rain-1983"
+ },
+ {
+  "artist": "Bauhaus",
+  "album": "In the Flat Field",
+  "year": 1980,
+  "id": "bauhaus-in-the-flat-field-1980"
  },
  {
   "artist": "Belle & Sebastian",
@@ -67,10 +115,34 @@ window.ALBUMS = [
   "id": "black-sabbath-paranoid-1971"
  },
  {
+  "artist": "Blondie",
+  "album": "Parallel Lines",
+  "year": 1978,
+  "id": "blondie-parallel-lines-1978"
+ },
+ {
+  "artist": "Cabaret Voltaire",
+  "album": "Mix-Up",
+  "year": 1979,
+  "id": "cabaret-voltaire-mix-up-1979"
+ },
+ {
   "artist": "Charged G.B.H.",
   "album": "City Baby Attacked By Rats",
   "year": 1982,
   "id": "charged-g-b-h-city-baby-attacked-by-rats-1982"
+ },
+ {
+  "artist": "China Crisis",
+  "album": "Difficult Shapes & Passive Rhythms, Some People Think It's Fun to Entertain",
+  "year": 1982,
+  "id": "china-crisis-difficult-shapes-passive-rhythms-some-people-think-it-s-fun-to-entertain-1982"
+ },
+ {
+  "artist": "Clan of Xymox",
+  "album": "Medusa",
+  "year": 1986,
+  "id": "clan-of-xymox-medusa-1986"
  },
  {
   "artist": "Cluster",
@@ -155,6 +227,12 @@ window.ALBUMS = [
   "album": "Cypress Hill",
   "year": 1991,
   "id": "cypress-hill-cypress-hill-1991"
+ },
+ {
+  "artist": "D.A.F.",
+  "album": "Ein Produkt der Deutsch-Amerikanischen Freundschaft",
+  "year": 1979,
+  "id": "d-a-f-ein-produkt-der-deutsch-amerikanischen-freundschaft-1979"
  },
  {
   "artist": "D.O.A.",
@@ -308,6 +386,12 @@ window.ALBUMS = [
  },
  {
   "artist": "Depeche Mode",
+  "album": "Black Celebration",
+  "year": 1986,
+  "id": "depeche-mode-black-celebration-1986"
+ },
+ {
+  "artist": "Depeche Mode",
   "album": "Violator",
   "year": 1990,
   "id": "depeche-mode-violator-1990"
@@ -449,6 +533,12 @@ window.ALBUMS = [
   "album": "Drunk Tank",
   "year": 1991,
   "id": "drunk-tank-drunk-tank-1991"
+ },
+ {
+  "artist": "Duran Duran",
+  "album": "Duran Duran",
+  "year": 1981,
+  "id": "duran-duran-duran-duran-1981"
  },
  {
   "artist": "Duran Duran",
@@ -1153,10 +1243,34 @@ window.ALBUMS = [
   "id": "i-love-you-but-i-ve-chosen-darkness-fear-is-on-our-side-2006"
  },
  {
+  "artist": "Ian Dury",
+  "album": "Do It Yourself",
+  "year": 1979,
+  "id": "ian-dury-do-it-yourself-1979"
+ },
+ {
   "artist": "Iggy Pop",
   "album": "New Values",
   "year": 1979,
   "id": "iggy-pop-new-values-1979"
+ },
+ {
+  "artist": "Japan",
+  "album": "Gentlemen Take Polaroids",
+  "year": 1980,
+  "id": "japan-gentlemen-take-polaroids-1980"
+ },
+ {
+  "artist": "Joe Jackson",
+  "album": "Look Sharp!",
+  "year": 1979,
+  "id": "joe-jackson-look-sharp-1979"
+ },
+ {
+  "artist": "John Foxx",
+  "album": "Metamatic",
+  "year": 1980,
+  "id": "john-foxx-metamatic-1980"
  },
  {
   "artist": "Johnny Thunders & Heartbreakers",
@@ -1189,6 +1303,18 @@ window.ALBUMS = [
   "id": "king-crimson-beat-1982"
  },
  {
+  "artist": "Klaus Nomi",
+  "album": "Klaus Nomi",
+  "year": 1981,
+  "id": "klaus-nomi-klaus-nomi-1981"
+ },
+ {
+  "artist": "Landscape",
+  "album": "Landscape",
+  "year": 1979,
+  "id": "landscape-landscape-1979"
+ },
+ {
   "artist": "Lightwave",
   "album": "Tycho Brahe",
   "year": 1993,
@@ -1199,6 +1325,24 @@ window.ALBUMS = [
   "album": "Real Life",
   "year": 1978,
   "id": "magazine-real-life-1978"
+ },
+ {
+  "artist": "Marc Almond",
+  "album": "Mother Fist and Her Five Daughters",
+  "year": 1987,
+  "id": "marc-almond-mother-fist-and-her-five-daughters-1987"
+ },
+ {
+  "artist": "Martha and the Muffins",
+  "album": "Metro Music",
+  "year": 1979,
+  "id": "martha-and-the-muffins-metro-music-1979"
+ },
+ {
+  "artist": "Minimal Compact",
+  "album": "Minimal Compact",
+  "year": 1981,
+  "id": "minimal-compact-minimal-compact-1981"
  },
  {
   "artist": "Missing Persons",
@@ -1531,6 +1675,12 @@ window.ALBUMS = [
   "id": "orchestral-manoeuvres-in-the-dark-organisation-1980"
  },
  {
+  "artist": "Orchestral Manoeuvres in the Dark",
+  "album": "Architecture & Morality",
+  "year": 1981,
+  "id": "orchestral-manoeuvres-in-the-dark-architecture-morality-1981"
+ },
+ {
   "artist": "Osanna",
   "album": "Paleopoli",
   "year": 1973,
@@ -1681,6 +1831,12 @@ window.ALBUMS = [
   "id": "pink-floyd-the-piper-at-the-gates-of-dawn-1967"
  },
  {
+  "artist": "Pink Turns Blue",
+  "album": "If Two Worlds Kiss",
+  "year": 1987,
+  "id": "pink-turns-blue-if-two-worlds-kiss-1987"
+ },
+ {
   "artist": "Pixies",
   "album": "Doolittle",
   "year": 1989,
@@ -1717,6 +1873,12 @@ window.ALBUMS = [
   "id": "polyrock-polyrock-1980"
  },
  {
+  "artist": "Polysics",
+  "album": "We Ate the Machine",
+  "year": 2008,
+  "id": "polysics-we-ate-the-machine-2008"
+ },
+ {
   "artist": "Pop. 1280",
   "album": "The Horror",
   "year": 2012,
@@ -1745,6 +1907,12 @@ window.ALBUMS = [
   "album": "Helium",
   "year": 1994,
   "id": "pram-helium-1994"
+ },
+ {
+  "artist": "Prefab Sprout",
+  "album": "Swoon",
+  "year": 1984,
+  "id": "prefab-sprout-swoon-1984"
  },
  {
   "artist": "Pretenders",
@@ -2185,10 +2353,22 @@ window.ALBUMS = [
   "id": "shonen-knife-pretty-little-baka-guy-1986"
  },
  {
+  "artist": "Shriekback",
+  "album": "Oil & Gold",
+  "year": 1985,
+  "id": "shriekback-oil-gold-1985"
+ },
+ {
   "artist": "Shugo Tokumaru",
   "album": "L.S.T.",
   "year": 2005,
   "id": "shugo-tokumaru-l-s-t-2005"
+ },
+ {
+  "artist": "Sigue Sigue Sputnik",
+  "album": "Flaunt It",
+  "year": 1986,
+  "id": "sigue-sigue-sputnik-flaunt-it-1986"
  },
  {
   "artist": "Sigur Rós",
@@ -2207,6 +2387,12 @@ window.ALBUMS = [
   "album": "Empires And Dance",
   "year": 1980,
   "id": "simple-minds-empires-and-dance-1980"
+ },
+ {
+  "artist": "Simple Minds",
+  "album": "New Gold Dream (81/82/83/84)",
+  "year": 1982,
+  "id": "simple-minds-new-gold-dream-81-82-83-84-1982"
  },
  {
   "artist": "Sinead O'Connor",
@@ -2305,10 +2491,34 @@ window.ALBUMS = [
   "id": "smashing-pumpkins-mellon-collie-and-the-infinite-sadness-1995"
  },
  {
+  "artist": "Soft Cell",
+  "album": "Non-Stop Erotic Cabaret",
+  "year": 1981,
+  "id": "soft-cell-non-stop-erotic-cabaret-1981"
+ },
+ {
   "artist": "Sonics",
   "album": "Here Are The Sonics",
   "year": 1965,
   "id": "sonics-here-are-the-sonics-1965"
+ },
+ {
+  "artist": "Spandau Ballet",
+  "album": "Journeys to Glory",
+  "year": 1981,
+  "id": "spandau-ballet-journeys-to-glory-1981"
+ },
+ {
+  "artist": "Sparks",
+  "album": "Kimono My House",
+  "year": 1974,
+  "id": "sparks-kimono-my-house-1974"
+ },
+ {
+  "artist": "Stan Ridgway",
+  "album": "The Big Heat",
+  "year": 1986,
+  "id": "stan-ridgway-the-big-heat-1986"
  },
  {
   "artist": "Steve Reich",
@@ -2329,6 +2539,12 @@ window.ALBUMS = [
   "id": "stiff-little-fingers-inflammable-material-1979"
  },
  {
+  "artist": "Suicide",
+  "album": "Suicide",
+  "year": 1977,
+  "id": "suicide-suicide-1977"
+ },
+ {
   "artist": "Syd Barrett",
   "album": "Madcap Laughs",
   "year": 1970,
@@ -2341,10 +2557,28 @@ window.ALBUMS = [
   "id": "t-rex-electric-warrior"
  },
  {
+  "artist": "Talk Talk",
+  "album": "The Colour of Spring",
+  "year": 1986,
+  "id": "talk-talk-the-colour-of-spring-1986"
+ },
+ {
   "artist": "Talking Heads",
   "album": "77",
   "year": 1977,
   "id": "talking-heads-77-1977"
+ },
+ {
+  "artist": "Talking Heads",
+  "album": "Fear of Music",
+  "year": 1979,
+  "id": "talking-heads-fear-of-music-1979"
+ },
+ {
+  "artist": "Tears for Fears",
+  "album": "The Hurting",
+  "year": 1983,
+  "id": "tears-for-fears-the-hurting-1983"
  },
  {
   "artist": "Telefon Tel Aviv",
@@ -2353,10 +2587,34 @@ window.ALBUMS = [
   "id": "telefon-tel-aviv-fahrenheit-fair-enough-2001"
  },
  {
+  "artist": "The B-52's",
+  "album": "The B-52's",
+  "year": 1979,
+  "id": "the-b-52-s-the-b-52-s-1979"
+ },
+ {
   "artist": "The Band",
   "album": "Band II",
   "year": 1969,
   "id": "the-band-band-ii-1969"
+ },
+ {
+  "artist": "The Cars",
+  "album": "Heartbeat City",
+  "year": 1984,
+  "id": "the-cars-heartbeat-city-1984"
+ },
+ {
+  "artist": "The Church",
+  "album": "Heyday",
+  "year": 1985,
+  "id": "the-church-heyday-1985"
+ },
+ {
+  "artist": "The Comsat Angels",
+  "album": "Waiting for a Miracle",
+  "year": 1980,
+  "id": "the-comsat-angels-waiting-for-a-miracle-1980"
  },
  {
   "artist": "The Cows",
@@ -2381,6 +2639,18 @@ window.ALBUMS = [
   "album": "Dreamtime",
   "year": 1984,
   "id": "the-cult-dreamtime-1984"
+ },
+ {
+  "artist": "The Cult",
+  "album": "Love",
+  "year": 1985,
+  "id": "the-cult-love-1985"
+ },
+ {
+  "artist": "The Cure",
+  "album": "Pornography",
+  "year": 1982,
+  "id": "the-cure-pornography-1982"
  },
  {
   "artist": "The Cure",
@@ -2612,6 +2882,12 @@ window.ALBUMS = [
  },
  {
   "artist": "The Human League",
+  "album": "Reproduction",
+  "year": 1979,
+  "id": "the-human-league-reproduction-1979"
+ },
+ {
+  "artist": "The Human League",
   "album": "Dare",
   "year": 1981,
   "id": "the-human-league-dare-1981"
@@ -2627,6 +2903,12 @@ window.ALBUMS = [
   "album": "All Mod Cons",
   "year": 1978,
   "id": "the-jam-all-mod-cons-1978"
+ },
+ {
+  "artist": "The Lords of the New Church",
+  "album": "The Lords of the New Church",
+  "year": 1982,
+  "id": "the-lords-of-the-new-church-the-lords-of-the-new-church-1982"
  },
  {
   "artist": "The Mission",
@@ -2645,6 +2927,12 @@ window.ALBUMS = [
   "album": "The Strange Boutique",
   "year": 1980,
   "id": "the-monochrome-set-the-strange-boutique-1980"
+ },
+ {
+  "artist": "The Monochrome Set",
+  "album": "Love Zombies",
+  "year": 1980,
+  "id": "the-monochrome-set-love-zombies-1980"
  },
  {
   "artist": "The Moody Blues",
@@ -2875,16 +3163,52 @@ window.ALBUMS = [
   "id": "the-slits-cut-1979"
  },
  {
+  "artist": "The Smiths",
+  "album": "The Queen Is Dead",
+  "year": 1986,
+  "id": "the-smiths-the-queen-is-dead-1986"
+ },
+ {
+  "artist": "The Sound",
+  "album": "Jeopardy",
+  "year": 1980,
+  "id": "the-sound-jeopardy-1980"
+ },
+ {
   "artist": "The Stone Roses",
   "album": "The Stone Roses",
   "year": 1989,
   "id": "the-stone-roses-the-stone-roses-1989"
  },
  {
+  "artist": "The Stranglers",
+  "album": "The Raven",
+  "year": 1979,
+  "id": "the-stranglers-the-raven-1979"
+ },
+ {
+  "artist": "The Style Council",
+  "album": "Café Bleu",
+  "year": 1984,
+  "id": "the-style-council-cafe-bleu-1984"
+ },
+ {
+  "artist": "The The",
+  "album": "Soul Mining",
+  "year": 1983,
+  "id": "the-the-soul-mining-1983"
+ },
+ {
   "artist": "The White Stripes",
   "album": "White Blood Cells",
   "year": 2001,
   "id": "the-white-stripes-white-blood-cells-2001"
+ },
+ {
+  "artist": "Thomas Dolby",
+  "album": "The Golden Age of Wireless",
+  "year": 1982,
+  "id": "thomas-dolby-the-golden-age-of-wireless-1982"
  },
  {
   "artist": "Tim Hecker",
@@ -2899,10 +3223,28 @@ window.ALBUMS = [
   "id": "tom-waits-alice-2002"
  },
  {
+  "artist": "Tubeway Army",
+  "album": "Replicas",
+  "year": 1979,
+  "id": "tubeway-army-replicas-1979"
+ },
+ {
+  "artist": "Tuxedomoon",
+  "album": "Half Mute",
+  "year": 1980,
+  "id": "tuxedomoon-half-mute-1980"
+ },
+ {
   "artist": "U2",
   "album": "Achtung Baby",
   "year": 1991,
   "id": "u2-achtung-baby-1991"
+ },
+ {
+  "artist": "Ultravox!",
+  "album": "Ultravox!",
+  "year": 1977,
+  "id": "ultravox-ultravox-1977"
  },
  {
   "artist": "Violent Femmes",
@@ -2917,10 +3259,22 @@ window.ALBUMS = [
   "id": "virgin-prunes-if-i-die-i-die-1982"
  },
  {
+  "artist": "Visage",
+  "album": "Visage",
+  "year": 1980,
+  "id": "visage-visage-1980"
+ },
+ {
   "artist": "Voivod",
   "album": "Nothingface",
   "year": 1989,
   "id": "voivod-nothingface-1989"
+ },
+ {
+  "artist": "Wall of Voodoo",
+  "album": "Call of the West",
+  "year": 1982,
+  "id": "wall-of-voodoo-call-of-the-west-1982"
  },
  {
   "artist": "Was (Not Was)",
@@ -2935,15 +3289,33 @@ window.ALBUMS = [
   "id": "wilma-wilma-1985"
  },
  {
+  "artist": "Wire",
+  "album": "154",
+  "year": 1979,
+  "id": "wire-154-1979"
+ },
+ {
   "artist": "X",
   "album": "Los Angeles",
   "year": 1980,
   "id": "x-los-angeles-1980"
  },
  {
+  "artist": "XTC",
+  "album": "Drums and Wires",
+  "year": 1979,
+  "id": "xtc-drums-and-wires-1979"
+ },
+ {
   "artist": "Y Pants",
   "album": "Beat it Down",
   "year": 1982,
   "id": "y-pants-beat-it-down-1982"
+ },
+ {
+  "artist": "Yellow Magic Orchestra",
+  "album": "Solid State Survivor",
+  "year": 1979,
+  "id": "yellow-magic-orchestra-solid-state-survivor-1979"
  }
 ];
