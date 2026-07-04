@@ -13,6 +13,18 @@ window.ALBUMS = [
   "id": "16-horsepower-sackcloth-ashes-1996"
  },
  {
+  "artist": "23 Skidoo",
+  "album": "Seven Songs",
+  "year": 1982,
+  "id": "23-skidoo-seven-songs-1982"
+ },
+ {
+  "artist": "45 Grave",
+  "album": "Sleep in Safety",
+  "year": 1983,
+  "id": "45-grave-sleep-in-safety-1983"
+ },
+ {
   "artist": "7 Year Bitch",
   "album": "Viva Zapata!",
   "year": 1994,
@@ -67,6 +79,12 @@ window.ALBUMS = [
   "id": "animal-collective-danse-manatee-2001"
  },
  {
+  "artist": "Annie Anxiety",
+  "album": "Soul Possession",
+  "year": 1984,
+  "id": "annie-anxiety-soul-possession-1984"
+ },
+ {
   "artist": "Arcade Fire",
   "album": "Funeral",
   "year": 2004,
@@ -103,10 +121,22 @@ window.ALBUMS = [
   "id": "associates-the-affectionate-punch-1980"
  },
  {
+  "artist": "Autechre",
+  "album": "Incunabula",
+  "year": 1993,
+  "id": "autechre-incunabula-1993"
+ },
+ {
   "artist": "Aztec Camera",
   "album": "High Land, Hard Rain",
   "year": 1983,
   "id": "aztec-camera-high-land-hard-rain-1983"
+ },
+ {
+  "artist": "Babes in Toyland",
+  "album": "Fontanelle",
+  "year": 1992,
+  "id": "babes-in-toyland-fontanelle-1992"
  },
  {
   "artist": "Bauhaus",
@@ -187,6 +217,12 @@ window.ALBUMS = [
   "id": "blondie-parallel-lines-1978"
  },
  {
+  "artist": "Blue Cheer",
+  "album": "Vincebus Eruptum",
+  "year": 1968,
+  "id": "blue-cheer-vincebus-eruptum-1968"
+ },
+ {
   "artist": "Blur",
   "album": "Blur",
   "year": 1997,
@@ -197,6 +233,18 @@ window.ALBUMS = [
   "album": "Letting Off the Happiness",
   "year": 1998,
   "id": "bright-eyes-letting-off-the-happiness-1998"
+ },
+ {
+  "artist": "Bright Eyes",
+  "album": "Fevers and Mirrors",
+  "year": 2000,
+  "id": "bright-eyes-fevers-and-mirrors-2000"
+ },
+ {
+  "artist": "Brighter Death Now",
+  "album": "Innerwar",
+  "year": 1996,
+  "id": "brighter-death-now-innerwar-1996"
  },
  {
   "artist": "Built to Spill",
@@ -217,6 +265,12 @@ window.ALBUMS = [
   "id": "cabaret-voltaire-mix-up-1979"
  },
  {
+  "artist": "Cat Power",
+  "album": "You Are Free",
+  "year": 2003,
+  "id": "cat-power-you-are-free-2003"
+ },
+ {
   "artist": "Catherine Wheel",
   "album": "Ferment",
   "year": 1992,
@@ -235,10 +289,40 @@ window.ALBUMS = [
   "id": "china-crisis-difficult-shapes-passive-rhythms-some-people-think-it-s-fun-to-entertain-1982"
  },
  {
+  "artist": "Christian Death",
+  "album": "Only Theatre of Pain",
+  "year": 1982,
+  "id": "christian-death-only-theatre-of-pain-1982"
+ },
+ {
+  "artist": "Chrome",
+  "album": "Half Machine Lip Moves",
+  "year": 1979,
+  "id": "chrome-half-machine-lip-moves-1979"
+ },
+ {
   "artist": "Clan of Xymox",
   "album": "Medusa",
   "year": 1986,
   "id": "clan-of-xymox-medusa-1986"
+ },
+ {
+  "artist": "Clearlight",
+  "album": "Clearlight Symphony",
+  "year": 1975,
+  "id": "clearlight-clearlight-symphony-1975"
+ },
+ {
+  "artist": "Clock DVA",
+  "album": "Advantage",
+  "year": 1983,
+  "id": "clock-dva-advantage-1983"
+ },
+ {
+  "artist": "cLOUDDEAD",
+  "album": "cLOUDDEAD",
+  "year": 2000,
+  "id": "clouddead-clouddead-2000"
  },
  {
   "artist": "Cluster",
@@ -479,6 +563,12 @@ window.ALBUMS = [
   "album": "Cryptograms",
   "year": 2007,
   "id": "deerhunter-cryptograms-2007"
+ },
+ {
+  "artist": "Deerhunter",
+  "album": "Halcyon Digest",
+  "year": 2010,
+  "id": "deerhunter-halcyon-digest-2010"
  },
  {
   "artist": "Defunkt",
@@ -746,6 +836,12 @@ window.ALBUMS = [
  },
  {
   "artist": "Erase Errata",
+  "album": "Other Animals",
+  "year": 2001,
+  "id": "erase-errata-other-animals-2001"
+ },
+ {
+  "artist": "Erase Errata",
   "album": "Nightlife",
   "year": 2006,
   "id": "erase-errata-nightlife-2006"
@@ -827,6 +923,12 @@ window.ALBUMS = [
   "album": "Faust",
   "year": 1971,
   "id": "faust-faust-1971"
+ },
+ {
+  "artist": "Faust",
+  "album": "Faust IV",
+  "year": 1973,
+  "id": "faust-faust-iv-1973"
  },
  {
   "artist": "Fear",
@@ -991,6 +1093,12 @@ window.ALBUMS = [
   "id": "fuck-buttons-street-horrrsing-2008"
  },
  {
+  "artist": "Fucked Up",
+  "album": "David Comes to Life",
+  "year": 2011,
+  "id": "fucked-up-david-comes-to-life-2011"
+ },
+ {
   "artist": "Fugazi",
   "album": "Repeater",
   "year": 1990,
@@ -1093,6 +1201,12 @@ window.ALBUMS = [
   "id": "glenn-branca-the-ascension-1981"
  },
  {
+  "artist": "Gnod",
+  "album": "Infinity Machines",
+  "year": 2014,
+  "id": "gnod-infinity-machines-2014"
+ },
+ {
   "artist": "Goblin",
   "album": "Suspiria",
   "year": 1977,
@@ -1151,6 +1265,12 @@ window.ALBUMS = [
   "album": "Nightclubbing",
   "year": 1981,
   "id": "grace-jones-nightclubbing-1981"
+ },
+ {
+  "artist": "Grand Funk Railroad",
+  "album": "On Time",
+  "year": 1969,
+  "id": "grand-funk-railroad-on-time-1969"
  },
  {
   "artist": "Grandaddy",
@@ -1315,6 +1435,12 @@ window.ALBUMS = [
   "id": "hoodoo-gurus-stoneage-romeos-1984"
  },
  {
+  "artist": "Hooverphonic",
+  "album": "The Magnificent Tree",
+  "year": 2000,
+  "id": "hooverphonic-the-magnificent-tree-2000"
+ },
+ {
   "artist": "Hot Chip",
   "album": "The Warning",
   "year": 2006,
@@ -1357,6 +1483,12 @@ window.ALBUMS = [
   "id": "i-love-you-but-i-ve-chosen-darkness-fear-is-on-our-side-2006"
  },
  {
+  "artist": "Ian Astbury",
+  "album": "Spirit/Light/Speed",
+  "year": 2000,
+  "id": "ian-astbury-spirit-light-speed-2000"
+ },
+ {
   "artist": "Ian Dury",
   "album": "Do It Yourself",
   "year": 1979,
@@ -1369,6 +1501,30 @@ window.ALBUMS = [
   "id": "iggy-pop-new-values-1979"
  },
  {
+  "artist": "Inspiral Carpets",
+  "album": "The Beast Inside",
+  "year": 1991,
+  "id": "inspiral-carpets-the-beast-inside-1991"
+ },
+ {
+  "artist": "Iron Maiden",
+  "album": "Iron Maiden",
+  "year": 1980,
+  "id": "iron-maiden-iron-maiden-1980"
+ },
+ {
+  "artist": "Isaac Hayes",
+  "album": "Hot Buttered Soul",
+  "year": 1969,
+  "id": "isaac-hayes-hot-buttered-soul-1969"
+ },
+ {
+  "artist": "James Chance & The Contortions",
+  "album": "Buy",
+  "year": 1979,
+  "id": "james-chance-the-contortions-buy-1979"
+ },
+ {
   "artist": "Japan",
   "album": "Gentlemen Take Polaroids",
   "year": 1980,
@@ -1379,6 +1535,12 @@ window.ALBUMS = [
   "album": "Grace",
   "year": 1994,
   "id": "jeff-buckley-grace-1994"
+ },
+ {
+  "artist": "Jefferson Airplane",
+  "album": "Volunteers",
+  "year": 1969,
+  "id": "jefferson-airplane-volunteers-1969"
  },
  {
   "artist": "Joanna Newsom",
@@ -1397,6 +1559,12 @@ window.ALBUMS = [
   "album": "Metamatic",
   "year": 1980,
   "id": "john-foxx-metamatic-1980"
+ },
+ {
+  "artist": "Johnny Cash",
+  "album": "Johnny Cash with His Hot and Blue Guitar",
+  "year": 1957,
+  "id": "johnny-cash-johnny-cash-with-his-hot-and-blue-guitar-1957"
  },
  {
   "artist": "Johnny Cash",
@@ -1429,6 +1597,12 @@ window.ALBUMS = [
   "id": "joy-division-closer-1980"
  },
  {
+  "artist": "Julian Cope",
+  "album": "World Shut Your Mouth",
+  "year": 1984,
+  "id": "julian-cope-world-shut-your-mouth-1984"
+ },
+ {
   "artist": "Kate Bush",
   "album": "The Kick Inside",
   "year": 1978,
@@ -1447,6 +1621,12 @@ window.ALBUMS = [
   "id": "killing-joke-night-time-1985"
  },
  {
+  "artist": "Kim Fowley",
+  "album": "Outrageous",
+  "year": 1968,
+  "id": "kim-fowley-outrageous-1968"
+ },
+ {
   "artist": "King Crimson",
   "album": "Beat",
   "year": 1982,
@@ -1457,6 +1637,12 @@ window.ALBUMS = [
   "album": "Klaus Nomi",
   "year": 1981,
   "id": "klaus-nomi-klaus-nomi-1981"
+ },
+ {
+  "artist": "Kraftwerk",
+  "album": "Trans-Europe Express",
+  "year": 1977,
+  "id": "kraftwerk-trans-europe-express-1977"
  },
  {
   "artist": "Kula Shaker",
@@ -1477,10 +1663,34 @@ window.ALBUMS = [
   "id": "lightwave-tycho-brahe-1993"
  },
  {
+  "artist": "Love",
+  "album": "Forever Changes",
+  "year": 1967,
+  "id": "love-forever-changes-1967"
+ },
+ {
+  "artist": "Love",
+  "album": "Da Capo",
+  "year": 1967,
+  "id": "love-da-capo-1967"
+ },
+ {
   "artist": "Low",
   "album": "I Could Live in Hope",
   "year": 1994,
   "id": "low-i-could-live-in-hope-1994"
+ },
+ {
+  "artist": "Lydia Lunch",
+  "album": "Queen of Siam",
+  "year": 1980,
+  "id": "lydia-lunch-queen-of-siam-1980"
+ },
+ {
+  "artist": "Mad River",
+  "album": "Mad River",
+  "year": 1968,
+  "id": "mad-river-mad-river-1968"
  },
  {
   "artist": "Magazine",
@@ -1501,10 +1711,22 @@ window.ALBUMS = [
   "id": "martha-and-the-muffins-metro-music-1979"
  },
  {
+  "artist": "MC5",
+  "album": "Kick Out the Jams",
+  "year": 1969,
+  "id": "mc5-kick-out-the-jams-1969"
+ },
+ {
   "artist": "Metallica",
   "album": "Kill 'Em All",
   "year": 1983,
   "id": "metallica-kill-em-all-1983"
+ },
+ {
+  "artist": "Midori",
+  "album": "Hello Everyone Nice to Meet You We Are Midori",
+  "year": 2008,
+  "id": "midori-hello-everyone-nice-to-meet-you-we-are-midori-2008"
  },
  {
   "artist": "Minimal Compact",
@@ -1561,6 +1783,12 @@ window.ALBUMS = [
   "id": "monster-magnet-spine-of-god-1991"
  },
  {
+  "artist": "Moor Mother",
+  "album": "Fetish Bones",
+  "year": 2016,
+  "id": "moor-mother-fetish-bones-2016"
+ },
+ {
   "artist": "Morphine",
   "album": "Good",
   "year": 1992,
@@ -1597,6 +1825,12 @@ window.ALBUMS = [
   "id": "mr-bungle-mr-bungle-1991"
  },
  {
+  "artist": "MU",
+  "album": "MU",
+  "year": 1971,
+  "id": "mu-mu-1971"
+ },
+ {
   "artist": "Mudhoney",
   "album": "Superfuzz Bigmuff",
   "year": 1988,
@@ -1607,6 +1841,12 @@ window.ALBUMS = [
   "album": "Mudhoney",
   "year": 1989,
   "id": "mudhoney-mudhoney-1989"
+ },
+ {
+  "artist": "Mudhoney",
+  "album": "Every Good Boy Deserves Fudge",
+  "year": 1991,
+  "id": "mudhoney-every-good-boy-deserves-fudge-1991"
  },
  {
   "artist": "MX-80 Sound",
@@ -1637,6 +1877,12 @@ window.ALBUMS = [
   "album": "Pleased To Eat You",
   "year": 2018,
   "id": "nashville-pussy-pleased-to-eat-you-2018"
+ },
+ {
+  "artist": "Negativland",
+  "album": "Negativland",
+  "year": 1980,
+  "id": "negativland-negativland-1980"
  },
  {
   "artist": "Negazione",
@@ -2108,6 +2354,12 @@ window.ALBUMS = [
  },
  {
   "artist": "Portishead",
+  "album": "Dummy",
+  "year": 1994,
+  "id": "portishead-dummy-1994"
+ },
+ {
+  "artist": "Portishead",
   "album": "Portishead",
   "year": 1997,
   "id": "portishead-portishead-1997"
@@ -2189,6 +2441,12 @@ window.ALBUMS = [
   "album": "Metal Box",
   "year": 1979,
   "id": "public-image-ltd-metal-box-1979"
+ },
+ {
+  "artist": "Public Image Ltd.",
+  "album": "The Flowers of Romance",
+  "year": 1981,
+  "id": "public-image-ltd-the-flowers-of-romance-1981"
  },
  {
   "artist": "Pulp",
@@ -2485,6 +2743,12 @@ window.ALBUMS = [
   "id": "scott-walker-tilt-1995"
  },
  {
+  "artist": "Scott Walker",
+  "album": "The Drift",
+  "year": 2006,
+  "id": "scott-walker-the-drift-2006"
+ },
+ {
   "artist": "Screaming Trees",
   "album": "Even If And Especially When",
   "year": 1987,
@@ -2707,6 +2971,12 @@ window.ALBUMS = [
   "id": "soft-cell-non-stop-erotic-cabaret-1981"
  },
  {
+  "artist": "Solex",
+  "album": "Low Kick and Hard Bop",
+  "year": 2001,
+  "id": "solex-low-kick-and-hard-bop-2001"
+ },
+ {
   "artist": "Sonics",
   "album": "Here Are The Sonics",
   "year": 1965,
@@ -2723,6 +2993,12 @@ window.ALBUMS = [
   "album": "Kimono My House",
   "year": 1974,
   "id": "sparks-kimono-my-house-1974"
+ },
+ {
+  "artist": "Stabscotch",
+  "album": "Uncanny Valley",
+  "year": 2017,
+  "id": "stabscotch-uncanny-valley-2017"
  },
  {
   "artist": "Stan Ridgway",
@@ -2761,6 +3037,12 @@ window.ALBUMS = [
   "id": "suicide-suicide-1977"
  },
  {
+  "artist": "Swans",
+  "album": "Children of God",
+  "year": 1987,
+  "id": "swans-children-of-god-1987"
+ },
+ {
   "artist": "Syd Barrett",
   "album": "Madcap Laughs",
   "year": 1970,
@@ -2771,6 +3053,12 @@ window.ALBUMS = [
   "album": "Electric Warrior",
   "year": null,
   "id": "t-rex-electric-warrior"
+ },
+ {
+  "artist": "T. Rex",
+  "album": "The Slider",
+  "year": 1972,
+  "id": "t-rex-the-slider-1972"
  },
  {
   "artist": "Talk Talk",
@@ -2809,6 +3097,18 @@ window.ALBUMS = [
   "id": "telefon-tel-aviv-fahrenheit-fair-enough-2001"
  },
  {
+  "artist": "Television",
+  "album": "Marquee Moon",
+  "year": 1977,
+  "id": "television-marquee-moon-1977"
+ },
+ {
+  "artist": "The Afghan Whigs",
+  "album": "Gentlemen",
+  "year": 1993,
+  "id": "the-afghan-whigs-gentlemen-1993"
+ },
+ {
   "artist": "The B-52's",
   "album": "The B-52's",
   "year": 1979,
@@ -2821,10 +3121,34 @@ window.ALBUMS = [
   "id": "the-band-band-ii-1969"
  },
  {
+  "artist": "The Black Heart Procession",
+  "album": "2",
+  "year": 1999,
+  "id": "the-black-heart-procession-2-1999"
+ },
+ {
+  "artist": "The Cars",
+  "album": "The Cars",
+  "year": 1978,
+  "id": "the-cars-the-cars-1978"
+ },
+ {
   "artist": "The Cars",
   "album": "Heartbeat City",
   "year": 1984,
   "id": "the-cars-heartbeat-city-1984"
+ },
+ {
+  "artist": "The Cassandra Complex",
+  "album": "Theomania",
+  "year": 1988,
+  "id": "the-cassandra-complex-theomania-1988"
+ },
+ {
+  "artist": "The Chameleons",
+  "album": "Script of the Bridge",
+  "year": 1983,
+  "id": "the-chameleons-script-of-the-bridge-1983"
  },
  {
   "artist": "The Church",
@@ -3127,10 +3451,22 @@ window.ALBUMS = [
   "id": "the-jam-all-mod-cons-1978"
  },
  {
+  "artist": "The Knife",
+  "album": "Shaking the Habitual",
+  "year": 2013,
+  "id": "the-knife-shaking-the-habitual-2013"
+ },
+ {
   "artist": "The Lords of the New Church",
   "album": "The Lords of the New Church",
   "year": 1982,
   "id": "the-lords-of-the-new-church-the-lords-of-the-new-church-1982"
+ },
+ {
+  "artist": "The Men",
+  "album": "Leave Home",
+  "year": 2011,
+  "id": "the-men-leave-home-2011"
  },
  {
   "artist": "The Mission",
@@ -3143,6 +3479,12 @@ window.ALBUMS = [
   "album": "The Modern Lovers",
   "year": 1976,
   "id": "the-modern-lovers-the-modern-lovers-1976"
+ },
+ {
+  "artist": "The Monks",
+  "album": "Black Monk Time",
+  "year": 1966,
+  "id": "the-monks-black-monk-time-1966"
  },
  {
   "artist": "The Monochrome Set",
@@ -3403,6 +3745,12 @@ window.ALBUMS = [
   "id": "the-smiths-the-queen-is-dead-1986"
  },
  {
+  "artist": "The Soft Moon",
+  "album": "The Soft Moon",
+  "year": 2010,
+  "id": "the-soft-moon-the-soft-moon-2010"
+ },
+ {
   "artist": "The Sound",
   "album": "Jeopardy",
   "year": 1980,
@@ -3413,6 +3761,12 @@ window.ALBUMS = [
   "album": "The Stone Roses",
   "year": 1989,
   "id": "the-stone-roses-the-stone-roses-1989"
+ },
+ {
+  "artist": "The Stooges",
+  "album": "The Stooges",
+  "year": 1969,
+  "id": "the-stooges-the-stooges-1969"
  },
  {
   "artist": "The Stranglers",
@@ -3457,6 +3811,12 @@ window.ALBUMS = [
   "id": "therapy-troublegum-1994"
  },
  {
+  "artist": "These New Puritans",
+  "album": "Hidden",
+  "year": 2010,
+  "id": "these-new-puritans-hidden-2010"
+ },
+ {
   "artist": "Thomas Dolby",
   "album": "The Golden Age of Wireless",
   "year": 1982,
@@ -3467,6 +3827,12 @@ window.ALBUMS = [
   "album": "Presents Radio Amor",
   "year": 2003,
   "id": "tim-hecker-presents-radio-amor-2003"
+ },
+ {
+  "artist": "Todd Rundgren",
+  "album": "Todd",
+  "year": 1974,
+  "id": "todd-rundgren-todd-1974"
  },
  {
   "artist": "Tom Waits",
@@ -3481,6 +3847,12 @@ window.ALBUMS = [
   "id": "tubeway-army-replicas-1979"
  },
  {
+  "artist": "Tussle",
+  "album": "Kling Klang",
+  "year": 2004,
+  "id": "tussle-kling-klang-2004"
+ },
+ {
   "artist": "Tuxedomoon",
   "album": "Half Mute",
   "year": 1980,
@@ -3491,6 +3863,12 @@ window.ALBUMS = [
   "album": "Desire",
   "year": 1981,
   "id": "tuxedomoon-desire-1981"
+ },
+ {
+  "artist": "Type O Negative",
+  "album": "Slow, Deep and Hard",
+  "year": 1991,
+  "id": "type-o-negative-slow-deep-and-hard-1991"
  },
  {
   "artist": "U2",
@@ -3553,10 +3931,22 @@ window.ALBUMS = [
   "id": "wall-of-voodoo-call-of-the-west-1982"
  },
  {
+  "artist": "Warrior Soul",
+  "album": "Last Decade Dead Century",
+  "year": 1990,
+  "id": "warrior-soul-last-decade-dead-century-1990"
+ },
+ {
   "artist": "Was (Not Was)",
   "album": "Was (Not Was)",
   "year": 1981,
   "id": "was-not-was-was-not-was-1981"
+ },
+ {
+  "artist": "White Rose Movement",
+  "album": "Kick",
+  "year": 2006,
+  "id": "white-rose-movement-kick-2006"
  },
  {
   "artist": "Wilma",
@@ -3593,6 +3983,18 @@ window.ALBUMS = [
   "album": "Under the Big Black Sun",
   "year": 1982,
   "id": "x-under-the-big-black-sun-1982"
+ },
+ {
+  "artist": "X-Ray Spex",
+  "album": "Germfree Adolescents",
+  "year": 1978,
+  "id": "x-ray-spex-germfree-adolescents-1978"
+ },
+ {
+  "artist": "Xiu Xiu",
+  "album": "A Promise",
+  "year": 2003,
+  "id": "xiu-xiu-a-promise-2003"
  },
  {
   "artist": "XTC",
