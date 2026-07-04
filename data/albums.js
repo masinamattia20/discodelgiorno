@@ -1411,6 +1411,12 @@ window.ALBUMS = [
   "id": "johnny-thunders-heartbreakers-l-a-m-f-1977"
  },
  {
+  "artist": "Jon Spencer Blues Explosion",
+  "album": "Orange",
+  "year": 1994,
+  "id": "jon-spencer-blues-explosion-orange-1994"
+ },
+ {
   "artist": "Joy Division",
   "album": "Unknown Pleasures",
   "year": 1979,
@@ -1493,6 +1499,12 @@ window.ALBUMS = [
   "album": "Metro Music",
   "year": 1979,
   "id": "martha-and-the-muffins-metro-music-1979"
+ },
+ {
+  "artist": "Metallica",
+  "album": "Kill 'Em All",
+  "year": 1983,
+  "id": "metallica-kill-em-all-1983"
  },
  {
   "artist": "Minimal Compact",
