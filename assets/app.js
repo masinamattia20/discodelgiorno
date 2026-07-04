@@ -5,6 +5,7 @@
 
   var ALBUMS = (window.ALBUMS || []).slice();
   var COVERS = window.COVERS || {};
+  var POPULARITY = window.POPULARITY || {};
   var SVGNS = "http://www.w3.org/2000/svg";
 
   function fold(s) {
@@ -83,6 +84,7 @@
   ALBUMS.forEach(function (a) {
     a._hay = fold(a.artist + " " + a.album + " " + (a.year || ""));
     a._decade = decadeOf(a.year);
+    a._pop = typeof POPULARITY[a.id] === "number" ? POPULARITY[a.id] : -1;
   });
 
   var PAGE_SIZE = 25;
@@ -267,6 +269,9 @@
     },
     "year-desc": function (a, b) {
       return (b.year || -Infinity) - (a.year || -Infinity) || cmp(a.artist, b.artist) || cmp(a.album, b.album);
+    },
+    popularity: function (a, b) {
+      return b._pop - a._pop || cmp(a.artist, b.artist) || cmp(a.album, b.album);
     },
   };
   function cmp(x, y) { return fold(x).localeCompare(fold(y)); }
